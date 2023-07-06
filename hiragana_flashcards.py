@@ -63,7 +63,7 @@ def hiragana_to_romaji(hiragana_chars):
 def main():
     romaji_chars = hiragana_to_romaji(hiragana_chars)
 
-    # Change this to the location of DejaVuSans.ttf on your system
+    # Change this to the location of your font package
     font_file = './NotoSansJP-Regular.ttf'  
 
     generate_pdf("hiragana.pdf", hiragana_chars, 'NotoSansJP', font_file)
